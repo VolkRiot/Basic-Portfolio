@@ -1,0 +1,105 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    position: relative;
+    min-height: 100%;
+}
+
+div, header, footer{
+    text-align: center;
+}
+
+a:hover{
+    color: #4F95DD;
+}
+
+header{
+    position: relative;
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+#nameContainer{
+    position: absolute;
+    left: 10%;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+}
+
+ul{
+    position: absolute;
+    list-style-type: none;
+    right: 10%;
+    top: 40%;
+}
+
+.headLinks{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+#about{
+    padding-right: 20px;
+}
+
+#contact{
+    padding-left: 20px;
+}
+
+#portfolio{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 2px #CCCCCC solid;
+    border-right: 2px #CCCCCC solid;;
+}
+
+.mainDiv{
+    width: 600px;
+    background-color: white;
+    border: 2px #CCCCCC solid;
+    position: absolute;
+    left: 10%;
+    top: 120px;
+}
+
+#aboutMe{
+    margin: 0 27px 0 27px;
+    padding: 30px 20px 20px 0;
+    color: #00AFA8;
+    border-bottom: 2px #dddddd solid;
+}
+
+#connect{
+    background-color: white;
+    position: absolute;
+    right: 10%;
+    top: 120px;
+    border: 2px #dddddd solid;
+}
+#connectHeader{
+    margin: 0px 27px 0px 27px;
+    padding: 30px 0px 20px 7px;
+    font-size: 22px;
+    color: #00AFA8;
+    border-bottom: 2px #DDDDDD solid;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    top: 950%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666666;
+    border-top: 5px #4aaaa5 solid;
+}
