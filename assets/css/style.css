@@ -141,6 +141,17 @@ form{
     margin: 0 0 10px 25px;
 }
 
+input{
+    color: grey;
+    position: inherit;
+    width: 95%;
+}
+
+input[title="Message"]{
+    height:200px;
+    overflow: scroll;
+}
+
 button{
     margin: 20px 0 0 0;
     display: block;
