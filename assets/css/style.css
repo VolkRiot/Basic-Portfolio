@@ -92,6 +92,17 @@ ul{
     color: #00AFA8;
     border-bottom: 2px #DDDDDD solid;
 }
+
+.socialMedia{
+    width: 50px;
+    margin: 10px 10px 10px 10px;
+    border-bottom: 2px solid white;
+}
+
+a{
+    text-decoration: none;
+}
+
 footer{
     width: 100%;
     position: absolute;
