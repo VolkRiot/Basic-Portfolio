@@ -5,10 +5,7 @@ html{
 body{
     position: relative;
     min-height: 100%;
-}
-
-div, header, footer{
-    text-align: center;
+    background-image: url("../images/sos.png");
 }
 
 a:hover{
@@ -37,7 +34,7 @@ header{
 ul{
     position: absolute;
     list-style-type: none;
-    right: 10%;
+    right: 16%;
     top: 40%;
 }
 
@@ -72,21 +69,32 @@ ul{
 }
 
 #aboutMe{
-    margin: 0 27px 0 27px;
+    margin: 0 25px 0 25px;
     padding: 30px 20px 20px 0;
     color: #00AFA8;
     border-bottom: 2px #dddddd solid;
 }
 
+#headshot{
+    float: left;
+    margin: 5px 20px 10px 25px;
+    border: 1px #CCCCCC solid;
+}
+
+#writtenBio{
+    line-height: 190%;
+    padding: 0 20px 10px 30px;
+}
+
 #connect{
     background-color: white;
     position: absolute;
-    right: 10%;
+    right: 20%;
     top: 120px;
-    border: 2px #dddddd solid;
+    border: 2px #CCCCCC solid;
 }
 #connectHeader{
-    margin: 0px 27px 0px 27px;
+    margin: 0px 20px 0px 20px;
     padding: 30px 0px 20px 7px;
     font-size: 22px;
     color: #00AFA8;
@@ -95,7 +103,7 @@ ul{
 
 .socialMedia{
     width: 50px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 12px 10px 12px;
     border-bottom: 2px solid white;
 }
 
@@ -103,10 +111,35 @@ a{
     text-decoration: none;
 }
 
+li>a {
+    color: #777777;
+    font-size: 20px;
+}
+
+p{
+    color: #777777;
+    font-size: 16px;
+}
+
+
+p.clear{
+   clear: both;
+}
+
+h2{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 25px;
+}
+
+#nameText{
+    color: white;
+    font-weight: bold;
+}
+
 footer{
     width: 100%;
     position: absolute;
-    top: 950%;
+    top: 700%;
     height: 80px;
     display: flex;
     align-items: center;
