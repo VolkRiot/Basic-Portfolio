@@ -139,21 +139,31 @@ h2{
 form{
     left: 10%;
     margin: 0 0 10px 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
 }
 
 input{
-    color: grey;
-    position: inherit;
-    width: 95%;
+    height: 30px;
+    padding: 0 3px 0 5px;
 }
 
-input[title="Message"]{
+input, textarea{
+    margin: 10px 0 15px 0;
+    position: inherit;
+    width: 95%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+}
+
+textarea{
+    padding: 5px 3px 3px 5px;
     height:200px;
     overflow: scroll;
 }
 
 button{
-    margin: 20px 0 0 0;
+    margin: 5px 0 0 0;
     display: block;
     background-color: #4aaaa5;
     border: 0;
@@ -167,7 +177,7 @@ button{
 footer{
     width: 100%;
     position: absolute;
-    top: 800%;
+    top: 950%;
     height: 80px;
     display: flex;
     align-items: center;
