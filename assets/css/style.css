@@ -6,6 +6,7 @@ body{
     position: relative;
     min-height: 100%;
     background-image: url("../images/sos.png");
+    overflow: auto;
 }
 
 a:hover{
@@ -65,6 +66,8 @@ ul{
     position: absolute;
     left: 10%;
     top: 120px;
+    clear: left;
+    z-index: 1;
 }
 
 .headingContainer{
@@ -91,6 +94,7 @@ ul{
     right: 20%;
     top: 120px;
     border: 2px #CCCCCC solid;
+    clear: both;
 }
 #connectHeader{
     margin: 0px 20px 0px 20px;
