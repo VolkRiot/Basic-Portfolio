@@ -108,7 +108,7 @@ form{
 
 .textBox{
     color: #AEA9AE;
-    width: 100%;
+    width: 99%;
     margin: 5px 0 10px 0;
     padding: 3px 0 3px 4px;
 }
@@ -165,7 +165,7 @@ a{
 footer{
     position: absolute;
     top: 1100%;
-    width: 99%;
+    width: 100%;
     background-color: #666666;
     height: 80px;
     justify-content: center;
