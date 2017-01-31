@@ -24,6 +24,10 @@ header{
     text-align: center;
 }
 
+#nameContainer:hover{
+    background-color: cornflowerblue;
+}
+
 #nameText{
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 25px;
