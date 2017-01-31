@@ -180,6 +180,12 @@ a{
     width: 50px;
     position: relative;
     margin: 15px 8px 15px 8px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.socialMedia:hover{
+    border-bottom-color: #4aaaa5;
 }
 
 footer{
